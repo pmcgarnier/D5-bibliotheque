@@ -1,0 +1,76 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+</style>
+
+body {
+  background-color: #FAF9F5;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  padding: 1em;
+  }
+
+a:hover {
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
+
+h2 {
+display: block;
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+margin-block-start: 1em;
+margin-block-end: 1em;
+}
+
+h3 {
+display: block;
+font-size: 50px;
+font-family: 'Tinos', serif;
+text-align: center;
+margin-block-start: 1em;
+margin-block-end: 1em;
+line-height: 55px;
+}
+
+h4 {
+  display: block;
+  font-size: 18px;
+  font-family: 'Tinos', serif;
+  font-style: italic;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  line-height: 1.8em;
+  margin-bottom: em;
+}
+
+
+h5 {
+  display: block;
+  font-size: 32px;
+  font-family: Aesthet Nova;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  width: 40%;
+  margin-left: 50%;
+  }
+
+p {
+display: block;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+line-height: 1.8em;
+width: 40%;
+margin-left: 50%;
+}
