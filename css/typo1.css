@@ -49,6 +49,7 @@ p {
   font-size: 16px;
   line-height: 2em;
   font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
   }
 
 .criminalité {
@@ -76,6 +77,7 @@ h5 {
     font-size: 21px;
     line-height: 2em;
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
   }
 
   .fictiongauche, .fictioncentre, .fictiondroite{
