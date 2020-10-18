@@ -20,11 +20,6 @@
   background: white;
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-</style>
-
-
 body {
   background-color: #FFFEF7;
 }
@@ -131,6 +126,11 @@ h4 {
   font-family: Aesthet Nova;
   margin-block-end: 1em;
   color: #FD6551;
+  }
+
+  .texto h4 span {
+  font-family: 'Tinos', serif;
+  font-style: italic;
   }
 
 

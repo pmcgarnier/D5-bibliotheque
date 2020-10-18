@@ -25,6 +25,27 @@ body {
   color: #FFFEF7;
 }
 
+h1 {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+
+/* positionner autrement */
+h2 {
+position: absolute;
+width: 184px;
+height: 39px;
+left: 920px;
+top: 485px;
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 400px 260px 260px 260px;
@@ -36,97 +57,44 @@ body {
     ". door1 . door3";
   }
 
-
-h1 {
-  font-size: 110px;
-  line-height: 1.2em;
-  letter-spacing: 1px;
-  font-family: 'Tinos', serif;
-  text-align:left;
-  margin-left: 40px;
-  margin-bottom: 65px;
-
-}
-
-.firstpage{
-  text-align: center;
-  font-size: 11px;
-  font-weight: lighter;
-}
-
-h2{
-  position: absolute;
-width: 184px;
-height: 39px;
-left: 920px;
-top: 485px;
-
-font-family: 'Palatino', serif;
-font-style: italic;
-font-weight: normal;
-font-size: 35px;
-line-height: 39px;
-}
-
 h3 {
   display: block;
-  font-size: 25px;
-  font-family: 'Palatino', serif;
-  font-weight: lighter;
-  font-style: italic;
   text-align:left;
-  line-height: 45px;
   margin-bottom: 1em;
-  letter-spacing: 1px;
-    margin-left: 40px;
+  margin-left: 40px;
   }
 
   p {
     display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 32px;
     margin-right: 130px;
     margin-bottom: 1em;
     margin-left: 40px;
   }
 
-  .text {
+.boton {
     background-clip: text;
     -webkit-background-clip: text;
     color: rgba(0,0,0,.2);
+    padding: 30px;
   }
 
-  a {
+a {
     display: block;
-    background: #101124;
-    border-radius: 50px;
     text-decoration: none;
     transition: all 0.2s ease-in;
-    font-family: 'Poppins', sans-serif;
-    color:#fff;
-    font-size: 25px;
     text-align: center;
-    background: linear-gradient(#8D91FF, #9AB9C2);
+    background: linear-gradient(#FFFEF7 , #909BAD);
   }
 
-  img {
+  a:hover {
+
+  }
+
+img {
   max-height:22em;
   margin:0px;
 }
 
-
 .copyright {
   text-align: center;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: lighter;
-}
-
-.appear {
-  position: relative;
-}
-
-.animates-transforms{
-
 }

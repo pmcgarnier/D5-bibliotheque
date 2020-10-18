@@ -1,7 +1,57 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-</style>
-
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-</style>
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 110px;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  font-family: 'Tinos', serif;
+}
+
+h2{
+font-style: italic;
+font-weight: normal;
+font-size: 25px;
+}
+
+figcaption{
+  font-size: 11px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Palatino', serif;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+a:hover{
+  font-family: 'Palatino', sans-serif;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.copyright{
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
