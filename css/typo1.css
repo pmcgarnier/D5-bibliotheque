@@ -1,2 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a:hover{
+  font-style: italic;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 50px;
+  font-family: 'Tinos', serif;
+  line-height: 55px;
+}
+
+h3{
+  font-size: 18px;
+  font-family: 'Tinos', serif;
+  font-style: italic;
+  line-height: 1.8em;
+}
+
+.texto1 h4 span {
+font-family: 'Tinos', serif;
+font-style: italic;
+}
+
+h4 {
+  font-size: 32px;
+  font-family: Aesthet Nova;
+  }
+
+p {
+  font-size: 16px;
+  line-height: 2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  }
+
+.criminalité {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.droite , .gauche {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 45px;
+  font-family: 'Tinos', serif;
+  }
+
+.texto4 {
+    font-size: 21px;
+    line-height: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+  }
