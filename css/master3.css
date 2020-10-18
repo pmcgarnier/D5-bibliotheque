@@ -73,8 +73,13 @@ margin-bottom: 45px;
 
 
 .texto1 {
-  margin-top: 70px;
+  margin-top: 30px;
   grid-column: 2;
+}
+
+.texto1bis {
+  grid-column: 1;
+  text-align: right;
 }
 
 h4 {
@@ -89,8 +94,9 @@ h4 {
   }
 
 .criminalité {
-  margin-bottom: 1.5em;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .texto2 {
@@ -99,42 +105,43 @@ h4 {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 2em;
+  margin-top: 200px;
+}
+
+.fictiongauche{
+text-align: center;
+grid-column: 1;
+}
+
+.fictioncentre{
+text-align: center;
+grid-column: 2;
 }
 
 .droite {
-  text-align: center;
-  grid-column: 1;
-}
-
-.gauche {
-  text-align: center;
+  text-align: left;
   grid-column: 3;
+  margin-bottom: 30px;
 }
 
-h5 {
-margin-bottom: 15px;
+.centre{
+  text-align: left;
+  grid-column: 2;
+  margin-bottom: 30px;
 }
 
-.texto3 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  margin-right: 2em;
-}
-
-.fiction {
-margin-left: 70px;
-}
-
-.droitepara {
-    grid-column: 2;
+.droite h5 {
+margin-bottom: 45px;
 }
 
 .texto4 {
   display: block;
   text-align: center;
   margin-right: 95px;
-  margin-bottom: 100px;
   padding: 3em;
+}
+
+.merci{
+  text-align: center;
+    margin-bottom: 100px;
 }

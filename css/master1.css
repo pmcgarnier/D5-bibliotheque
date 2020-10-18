@@ -99,6 +99,7 @@ h4 {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 2em;
+  margin-bottom: 200px;
 }
 
 .droite {
@@ -121,6 +122,7 @@ margin-bottom: 15px;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   margin-right: 2em;
+  margin-bottom: 60px;
 }
 
 .fiction {

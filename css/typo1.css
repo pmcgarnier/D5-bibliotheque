@@ -33,8 +33,11 @@ h3{
 }
 
 .texto1 h4 span {
-font-family: 'Tinos', serif;
 font-style: italic;
+}
+
+.texto4 span{
+  font-style: italic;
 }
 
 h4 {
@@ -54,7 +57,7 @@ p {
   line-height: 40px;
 }
 
-.droite , .gauche {
+.droite , .gauche, .centre {
   font-size: 14px;
 }
 
@@ -63,9 +66,43 @@ h5 {
   font-family: 'Tinos', serif;
   }
 
+.texto3 h5{
+  font-size: 48px;
+  font-family: Aesthet Nova;
+  color: #FD6551;
+}
+
+
 .texto4 {
     font-size: 21px;
     line-height: 2em;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
   }
+
+  .fictiongauche, .fictioncentre, .fictiondroite{
+    font-size: 100px;
+    font-family: Aesthet Nova;
+    line-height: 1.4em;
+  }
+
+  h6{
+    font-size: 22px;
+    font-family: Aesthet Nova;
+    color: #0169F8;
+    }
+
+    .texto1bis h1 {
+      font-size: 28px;
+      font-family: Aesthet Nova;
+      color: #0169F8;
+      line-height: 1.4em;
+    }
+
+
+    .texto2bis h1 {
+      font-size: 28px;
+      font-family: Aesthet Nova;
+      color: #0169F8;
+      line-height: 1.4em;
+    }
